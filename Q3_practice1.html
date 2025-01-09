@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Q3Practice1</title>
+	    <style>
+	    	#quotetext {
+	    		position:absolute;
+	    		top:70%;
+	    		left:58%;
+	    		transform: translate(-50%, -50%);
+	    	}
+	    </style>
+</head>
+<body>
+	<h1>Quote of the day</h1>
+	<br>
+    <div class="container-fluid" id="main">
+    	<div class="row">
+    		<center>
+    			<div class="col-md-4" id="div2">
+    			<div id= "box">
+    				<img  src="https://i.pinimg.com/736x/0e/f4/14/0ef4140fe3eb9f51360570a286d19726.jpg"> 
+    				<div= class="img-fluid">
+    				<div id="quotetext" class="col-md-3">
+    					   <p id="quote1"></p>
+    					   <p id= owner></p>
+    				
+    				</div> 
+    	        </div>
+    	 </center>
+    </div>
+    </div>
+
+	<!--
+      <p id="sample">text</p>
+    -->
+    <script>
+    	
+        let quote1 = "Be who you are and say what you feel, because those who mind dont matter and those who matter dont mind.";
+        let name = "-Bernard M. Brauch";
+
+        document.getElementById("quote1").innerHTML= quote1 + "<br>";
+        document.getElementById("owner").innerHTML= name;
+        
+    
+    	/*
+        let goal1, goal2, goal3;
+        goal1 = "to be better at cooking"; //not burn anything
+        goal2 = "to pass math cause legit im failing"; //3rd quarter
+        goal3 = "go out more"; //NOW
+        document.getElementById("sample").innerHTML = goal1;
+        document.write("<h2 style='color: green;'>" + goal2 + "</h2>");
+        window.alert(goal3);
+    	let a,b; //declare variables
+    	a = 5;  //assign a value
+    	b = 4; // assign a value
+
+    	//document.getElementById("sample").innerHTML = a + b;
+    	//document.write(a*b);
+    	window.alert(a/b);
+    	*/
+    </script>
+
+</body>
+</html>
